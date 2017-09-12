@@ -1,0 +1,20 @@
+{
+  "name": "handsontable",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "handsontable-pro": "git+https://user1f5163215169:rippling@my.handsontable.com/handsontable/handsontable-pro.git",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "react-scripts": "1.0.13"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "rc-slider": "^8.3.1"
+  }
+}
