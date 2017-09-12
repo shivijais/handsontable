@@ -4,10 +4,11 @@
   "private": true,
   "dependencies": {
     "handsontable-pro": "git+https://user1f5163215169:rippling@my.handsontable.com/handsontable/handsontable-pro.git",
+    "lodash": "^4.17.4",
+    "rc-slider": "^8.3.1",
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
-    "react-scripts": "1.0.13",
-    "rc-slider": "^8.3.1"
+    "react-scripts": "1.0.13"
   },
   "scripts": {
     "start": "react-scripts start",
