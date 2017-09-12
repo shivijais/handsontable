@@ -86,7 +86,7 @@ class Table extends PureComponent {
   componentDidMount() {
     this.hotTable = new Handsontable(this.refs.tableContainer, Object.assign({
       data: [],
-      height: window.innerHeight - 114
+      height: window.innerHeight - 116
     }, TABLE_SETTINGS));
   }
 
