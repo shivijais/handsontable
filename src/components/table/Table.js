@@ -88,6 +88,7 @@ class Table extends PureComponent {
       data: [],
       height: window.innerHeight - 116
     }, TABLE_SETTINGS));
+    window.addEventListener("resize", this.updateDimensions);
   }
 
   componentDidUpdate() {
@@ -95,6 +96,16 @@ class Table extends PureComponent {
       {},
       ...this.props.data,
     ]);
+  }
+
+  componentWillUnmount() {
+    window.removeEventListener("resize", this.updateDimensions);
+  }
+
+  updateDimensions = () => {
+    this.hotTable.updateSettings({
+      height: window.innerHeight - 116,
+    });
   }
 
   onScroll = () => {

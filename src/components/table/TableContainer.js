@@ -67,7 +67,6 @@ class TableContainer extends PureComponent {
   }
 
   render() {
-    debugger;
     return (
       <Table
         data={this.state.data}

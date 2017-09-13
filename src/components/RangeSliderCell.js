@@ -9,7 +9,6 @@ class Slider extends React.PureComponent {
   }
 
   render() {
-    debugger;
     const range = this.props.value || [20, 40];
     return (
         <div className="slider-wrapper">
